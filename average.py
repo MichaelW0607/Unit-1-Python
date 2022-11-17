@@ -1,6 +1,6 @@
-x = [99,88,65,0]
+grade  = []
 sum = 0
-for grade in x:
-    sum = sum + grade
-    print(sum / len (x))
-    x = input ("what is your grade?")
+x = input("what is your grade?")
+grade.append(int(x))
+x = input("what is your grade?")
+grade.append(int(x))
