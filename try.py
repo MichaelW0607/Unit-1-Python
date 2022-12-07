@@ -13,4 +13,4 @@ except ValueError:
 except ZeroDivisionError:
  print("Please do not enter the number zero")
 finally:
-    print("This code runs no matter what")
+    print("This code will run no matter what")
