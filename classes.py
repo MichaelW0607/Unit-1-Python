@@ -17,4 +17,15 @@ michael.hello()
 moinul = person("moinul",17)
 print(moinul.name)
 print(moinul.age)
-    
+class Teacher(person):
+ role = "teacher"
+ def hi(self):
+    print("Hi my name is Mx." + self.name)
+forlenza = Teacher("forlenza",184)
+print(forlenza.role)
+forlenza.hi()
+class Student(person):
+ role = "student"
+
+michael = Student("michael",17)
+michael.hi()
